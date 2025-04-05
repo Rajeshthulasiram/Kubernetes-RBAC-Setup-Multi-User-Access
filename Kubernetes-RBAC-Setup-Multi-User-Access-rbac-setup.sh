@@ -5,7 +5,7 @@ set -e
 # Variables
 NAMESPACE="rajesh-app"
 CLUSTER_NAME="kind-rajesh-cluster"
-CONTROL_PLANE="kind-rajesh-cluster-control-plane"
+CONTROL_PLANE="rajesh-cluster-control-plane"
 
 echo "🌀 Creating namespace: $NAMESPACE"
 kubectl create namespace $NAMESPACE || true
