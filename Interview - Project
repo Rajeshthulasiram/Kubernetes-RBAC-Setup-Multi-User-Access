@@ -1,0 +1,26 @@
+✅ Suggested Project Name for Your CV
+You can go with:
+
+Project Name:
+🔐 "RBAC-Based Multi-User Kubernetes Access Control with Kind Cluster"
+
+📄 Description for Your Resume
+Here's a bullet-point style you can add under "Projects" or "Hands-On Experience":
+
+RBAC-Based Multi-User Kubernetes Access Control with Kind Cluster
+Designed and implemented secure, namespace-scoped RBAC policies in a local Kubernetes cluster using Kind.
+
+Automated the entire access control setup with a Bash script, including:
+
+Namespace and Role creation (read-only and read-write roles).
+
+Certificate generation for users (john, adam) and signing with Kubernetes CA.
+
+Kubeconfig updates and user-context creation.
+
+RoleBindings mapped to users with strict pod-level permissions.
+
+Deployed test workloads (e.g., NGINX pod) and validated user access using separate kubeconfig contexts.
+
+Demonstrated multi-user access isolation, a critical security practice for real-world production clusters.
+
