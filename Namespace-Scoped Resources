@@ -1,3 +1,5 @@
+kubectl api-resources --namespaced=true     # Lists all namespace-scoped
+
 NAME                        SHORTNAMES   APIVERSION                     NAMESPACED   KIND
 bindings                                 v1                             true         Binding
 configmaps                  cm           v1                             true         ConfigMap
